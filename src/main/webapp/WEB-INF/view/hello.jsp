@@ -21,7 +21,7 @@
             <h1>
                 ${nhan}
             </h1>
-            <button btn btn-success>Submit</button>
+            <button class="btn btn-success">Submit</button>
         </body>
 
         </html>

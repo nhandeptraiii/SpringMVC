@@ -28,7 +28,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
         registry.viewResolver(viewResolver());
     }
 
-    // Cau hinh tim kiem css
+    // // Cau hinh tim kiem css
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/css/**").addResourceLocations("/resources/css/");
